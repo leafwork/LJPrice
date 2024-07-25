@@ -379,7 +379,6 @@
             txtItemName.Name = "txtItemName";
             txtItemName.Size = new Size(341, 31);
             txtItemName.TabIndex = 33;
-            txtItemName.TextChanged += txtItemName_TextChanged;
             // 
             // btnSave
             // 

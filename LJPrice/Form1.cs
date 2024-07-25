@@ -222,10 +222,5 @@ namespace LJPrice
                 Calculate();
             }
         }
-
-        private void txtItemName_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
     }
 }
