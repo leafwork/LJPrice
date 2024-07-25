@@ -64,12 +64,16 @@
             txtItemName = new TextBox();
             btnSave = new Button();
             btnLoad = new Button();
+            txtType1 = new TextBox();
+            txtType2 = new TextBox();
+            lblType1 = new Label();
+            label1 = new Label();
             SuspendLayout();
             // 
             // lblRPI1
             // 
             lblRPI1.AutoSize = true;
-            lblRPI1.Location = new Point(20, 64);
+            lblRPI1.Location = new Point(20, 114);
             lblRPI1.Name = "lblRPI1";
             lblRPI1.Size = new Size(142, 25);
             lblRPI1.TabIndex = 0;
@@ -78,7 +82,7 @@
             // lblInches1
             // 
             lblInches1.AutoSize = true;
-            lblInches1.Location = new Point(20, 101);
+            lblInches1.Location = new Point(20, 151);
             lblInches1.Name = "lblInches1";
             lblInches1.Size = new Size(81, 25);
             lblInches1.TabIndex = 1;
@@ -87,7 +91,7 @@
             // lblRPU1
             // 
             lblRPU1.AutoSize = true;
-            lblRPU1.Location = new Point(20, 138);
+            lblRPU1.Location = new Point(20, 188);
             lblRPU1.Name = "lblRPU1";
             lblRPU1.Size = new Size(141, 25);
             lblRPU1.TabIndex = 2;
@@ -96,7 +100,7 @@
             // lblPPU1
             // 
             lblPPU1.AutoSize = true;
-            lblPPU1.Location = new Point(21, 175);
+            lblPPU1.Location = new Point(21, 225);
             lblPPU1.Name = "lblPPU1";
             lblPPU1.Size = new Size(134, 25);
             lblPPU1.TabIndex = 3;
@@ -104,7 +108,7 @@
             // 
             // txtRPI1
             // 
-            txtRPI1.Location = new Point(168, 61);
+            txtRPI1.Location = new Point(168, 111);
             txtRPI1.Name = "txtRPI1";
             txtRPI1.Size = new Size(76, 31);
             txtRPI1.TabIndex = 4;
@@ -113,7 +117,7 @@
             // 
             // txtInches1
             // 
-            txtInches1.Location = new Point(168, 98);
+            txtInches1.Location = new Point(168, 148);
             txtInches1.Name = "txtInches1";
             txtInches1.Size = new Size(76, 31);
             txtInches1.TabIndex = 5;
@@ -122,7 +126,7 @@
             // 
             // txtRPU1
             // 
-            txtRPU1.Location = new Point(168, 135);
+            txtRPU1.Location = new Point(168, 185);
             txtRPU1.Name = "txtRPU1";
             txtRPU1.Size = new Size(76, 31);
             txtRPU1.TabIndex = 6;
@@ -131,7 +135,7 @@
             // 
             // txtPPU1
             // 
-            txtPPU1.Location = new Point(168, 172);
+            txtPPU1.Location = new Point(168, 222);
             txtPPU1.Name = "txtPPU1";
             txtPPU1.Size = new Size(76, 31);
             txtPPU1.TabIndex = 7;
@@ -140,7 +144,7 @@
             // 
             // txtPPU2
             // 
-            txtPPU2.Location = new Point(396, 172);
+            txtPPU2.Location = new Point(396, 222);
             txtPPU2.Name = "txtPPU2";
             txtPPU2.Size = new Size(76, 31);
             txtPPU2.TabIndex = 15;
@@ -149,7 +153,7 @@
             // 
             // txtRPU2
             // 
-            txtRPU2.Location = new Point(396, 135);
+            txtRPU2.Location = new Point(396, 185);
             txtRPU2.Name = "txtRPU2";
             txtRPU2.Size = new Size(77, 31);
             txtRPU2.TabIndex = 14;
@@ -158,7 +162,7 @@
             // 
             // txtInches2
             // 
-            txtInches2.Location = new Point(397, 98);
+            txtInches2.Location = new Point(397, 148);
             txtInches2.Name = "txtInches2";
             txtInches2.Size = new Size(76, 31);
             txtInches2.TabIndex = 13;
@@ -167,7 +171,7 @@
             // 
             // txtRPI2
             // 
-            txtRPI2.Location = new Point(397, 61);
+            txtRPI2.Location = new Point(397, 111);
             txtRPI2.Name = "txtRPI2";
             txtRPI2.Size = new Size(76, 31);
             txtRPI2.TabIndex = 12;
@@ -177,7 +181,7 @@
             // lblPPU2
             // 
             lblPPU2.AutoSize = true;
-            lblPPU2.Location = new Point(249, 175);
+            lblPPU2.Location = new Point(249, 225);
             lblPPU2.Name = "lblPPU2";
             lblPPU2.Size = new Size(134, 25);
             lblPPU2.TabIndex = 11;
@@ -186,7 +190,7 @@
             // lblRPU2
             // 
             lblRPU2.AutoSize = true;
-            lblRPU2.Location = new Point(249, 138);
+            lblRPU2.Location = new Point(249, 188);
             lblRPU2.Name = "lblRPU2";
             lblRPU2.Size = new Size(141, 25);
             lblRPU2.TabIndex = 10;
@@ -195,7 +199,7 @@
             // lblInches2
             // 
             lblInches2.AutoSize = true;
-            lblInches2.Location = new Point(250, 101);
+            lblInches2.Location = new Point(250, 151);
             lblInches2.Name = "lblInches2";
             lblInches2.Size = new Size(81, 25);
             lblInches2.TabIndex = 9;
@@ -204,7 +208,7 @@
             // lblRPI2
             // 
             lblRPI2.AutoSize = true;
-            lblRPI2.Location = new Point(250, 64);
+            lblRPI2.Location = new Point(250, 114);
             lblRPI2.Name = "lblRPI2";
             lblRPI2.Size = new Size(142, 25);
             lblRPI2.TabIndex = 8;
@@ -212,7 +216,7 @@
             // 
             // buttonClear1
             // 
-            buttonClear1.Location = new Point(179, 209);
+            buttonClear1.Location = new Point(179, 259);
             buttonClear1.Name = "buttonClear1";
             buttonClear1.Size = new Size(64, 32);
             buttonClear1.TabIndex = 16;
@@ -222,7 +226,7 @@
             // 
             // buttonClear2
             // 
-            buttonClear2.Location = new Point(409, 209);
+            buttonClear2.Location = new Point(409, 259);
             buttonClear2.Name = "buttonClear2";
             buttonClear2.Size = new Size(64, 32);
             buttonClear2.TabIndex = 17;
@@ -234,7 +238,7 @@
             // 
             lblRings1.AutoSize = true;
             lblRings1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblRings1.Location = new Point(20, 206);
+            lblRings1.Location = new Point(20, 256);
             lblRings1.Name = "lblRings1";
             lblRings1.Size = new Size(94, 25);
             lblRings1.TabIndex = 18;
@@ -244,7 +248,7 @@
             // 
             lblUnits1.AutoSize = true;
             lblUnits1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblUnits1.Location = new Point(20, 231);
+            lblUnits1.Location = new Point(20, 281);
             lblUnits1.Name = "lblUnits1";
             lblUnits1.Size = new Size(91, 25);
             lblUnits1.TabIndex = 19;
@@ -254,7 +258,7 @@
             // 
             lblUnits2.AutoSize = true;
             lblUnits2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblUnits2.Location = new Point(249, 231);
+            lblUnits2.Location = new Point(249, 281);
             lblUnits2.Name = "lblUnits2";
             lblUnits2.Size = new Size(91, 25);
             lblUnits2.TabIndex = 21;
@@ -264,7 +268,7 @@
             // 
             lblRings2.AutoSize = true;
             lblRings2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblRings2.Location = new Point(250, 206);
+            lblRings2.Location = new Point(250, 256);
             lblRings2.Name = "lblRings2";
             lblRings2.Size = new Size(94, 25);
             lblRings2.TabIndex = 20;
@@ -274,7 +278,7 @@
             // 
             lblTotalRings.AutoSize = true;
             lblTotalRings.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblTotalRings.Location = new Point(347, 275);
+            lblTotalRings.Location = new Point(347, 325);
             lblTotalRings.Name = "lblTotalRings";
             lblTotalRings.Size = new Size(126, 25);
             lblTotalRings.TabIndex = 22;
@@ -283,7 +287,7 @@
             // lblFindings
             // 
             lblFindings.AutoSize = true;
-            lblFindings.Location = new Point(21, 278);
+            lblFindings.Location = new Point(21, 328);
             lblFindings.Name = "lblFindings";
             lblFindings.Size = new Size(83, 25);
             lblFindings.TabIndex = 23;
@@ -291,7 +295,7 @@
             // 
             // txtFindings
             // 
-            txtFindings.Location = new Point(168, 275);
+            txtFindings.Location = new Point(168, 325);
             txtFindings.Name = "txtFindings";
             txtFindings.Size = new Size(77, 31);
             txtFindings.TabIndex = 24;
@@ -300,7 +304,7 @@
             // 
             // txtLPR
             // 
-            txtLPR.Location = new Point(167, 312);
+            txtLPR.Location = new Point(167, 362);
             txtLPR.Name = "txtLPR";
             txtLPR.Size = new Size(77, 31);
             txtLPR.TabIndex = 26;
@@ -310,7 +314,7 @@
             // lblLPR
             // 
             lblLPR.AutoSize = true;
-            lblLPR.Location = new Point(20, 315);
+            lblLPR.Location = new Point(20, 365);
             lblLPR.Name = "lblLPR";
             lblLPR.Size = new Size(131, 25);
             lblLPR.TabIndex = 25;
@@ -320,7 +324,7 @@
             // 
             lblMaterialCost.AutoSize = true;
             lblMaterialCost.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblMaterialCost.Location = new Point(287, 300);
+            lblMaterialCost.Location = new Point(287, 350);
             lblMaterialCost.Name = "lblMaterialCost";
             lblMaterialCost.Size = new Size(243, 32);
             lblMaterialCost.TabIndex = 27;
@@ -330,7 +334,7 @@
             // 
             lblTotalLabor.AutoSize = true;
             lblTotalLabor.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTotalLabor.Location = new Point(310, 331);
+            lblTotalLabor.Location = new Point(310, 381);
             lblTotalLabor.Name = "lblTotalLabor";
             lblTotalLabor.Size = new Size(220, 32);
             lblTotalLabor.TabIndex = 28;
@@ -338,7 +342,7 @@
             // 
             // txtOverhead
             // 
-            txtOverhead.Location = new Point(167, 349);
+            txtOverhead.Location = new Point(167, 399);
             txtOverhead.Name = "txtOverhead";
             txtOverhead.Size = new Size(77, 31);
             txtOverhead.TabIndex = 30;
@@ -348,7 +352,7 @@
             // lblOverhead
             // 
             lblOverhead.AutoSize = true;
-            lblOverhead.Location = new Point(20, 352);
+            lblOverhead.Location = new Point(20, 402);
             lblOverhead.Name = "lblOverhead";
             lblOverhead.Size = new Size(113, 25);
             lblOverhead.TabIndex = 29;
@@ -358,7 +362,7 @@
             // 
             lblFinalPrice.AutoSize = true;
             lblFinalPrice.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblFinalPrice.Location = new Point(277, 361);
+            lblFinalPrice.Location = new Point(277, 411);
             lblFinalPrice.Name = "lblFinalPrice";
             lblFinalPrice.Size = new Size(273, 45);
             lblFinalPrice.TabIndex = 31;
@@ -382,7 +386,7 @@
             // 
             // btnSave
             // 
-            btnSave.Location = new Point(313, 424);
+            btnSave.Location = new Point(313, 474);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(160, 48);
             btnSave.TabIndex = 34;
@@ -392,7 +396,7 @@
             // 
             // btnLoad
             // 
-            btnLoad.Location = new Point(21, 425);
+            btnLoad.Location = new Point(21, 475);
             btnLoad.Name = "btnLoad";
             btnLoad.Size = new Size(160, 48);
             btnLoad.TabIndex = 35;
@@ -400,13 +404,49 @@
             btnLoad.UseVisualStyleBackColor = true;
             btnLoad.Click += btnLoad_Click;
             // 
+            // txtType1
+            // 
+            txtType1.Location = new Point(21, 74);
+            txtType1.Name = "txtType1";
+            txtType1.Size = new Size(224, 31);
+            txtType1.TabIndex = 36;
+            // 
+            // txtType2
+            // 
+            txtType2.Location = new Point(250, 74);
+            txtType2.Name = "txtType2";
+            txtType2.Size = new Size(223, 31);
+            txtType2.TabIndex = 37;
+            // 
+            // lblType1
+            // 
+            lblType1.AutoSize = true;
+            lblType1.Location = new Point(21, 46);
+            lblType1.Name = "lblType1";
+            lblType1.Size = new Size(109, 25);
+            lblType1.TabIndex = 38;
+            lblType1.Text = "Ring Type 1:";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(250, 46);
+            label1.Name = "label1";
+            label1.Size = new Size(109, 25);
+            label1.TabIndex = 39;
+            label1.Text = "Ring Type 1:";
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            ClientSize = new Size(624, 491);
+            ClientSize = new Size(624, 639);
+            Controls.Add(label1);
+            Controls.Add(lblType1);
+            Controls.Add(txtType2);
+            Controls.Add(txtType1);
             Controls.Add(btnLoad);
             Controls.Add(btnSave);
             Controls.Add(txtItemName);
@@ -489,5 +529,9 @@
         private TextBox txtItemName;
         private Button btnSave;
         private Button btnLoad;
+        private TextBox txtType1;
+        private TextBox txtType2;
+        private Label lblType1;
+        private Label label1;
     }
 }

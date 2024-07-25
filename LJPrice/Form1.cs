@@ -12,12 +12,13 @@ namespace LJPrice
         {
             currentItem = new Item();
             InitializeComponent();
-
         }
 
         public class Item
         {
             public string name { get; set; } = "Item";
+            public string type1 { get; set; } = "";
+            public string type2 { get; set; } = "";
             public float rpi1 { get; set; }
             public float inches1 { get; set; }
             public float rpu1 { get; set; }
@@ -117,6 +118,8 @@ namespace LJPrice
 
             //get inputs
             currentItem.name = txtItemName.Text;
+            currentItem.type1 = txtType1.Text;
+            currentItem.type2 = txtType2.Text;
 
             currentItem.rpi1 = float.Parse("0" + txtRPI1.Text);
             currentItem.inches1 = float.Parse("0" + txtInches1.Text);
@@ -204,6 +207,8 @@ namespace LJPrice
                 Item readItem = JsonSerializer.Deserialize<Item>(openStream)!;
 
                 txtItemName.Text = readItem.name;
+                txtType1.Text = readItem.type1;
+                txtType2.Text = readItem.type2;
 
                 txtRPI1.Text = readItem.rpi1.ToString();
                 txtInches1.Text = readItem.inches1.ToString();
