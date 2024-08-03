@@ -144,7 +144,7 @@
             // 
             // txtPPU2
             // 
-            txtPPU2.Location = new Point(396, 222);
+            txtPPU2.Location = new Point(423, 222);
             txtPPU2.Name = "txtPPU2";
             txtPPU2.Size = new Size(76, 31);
             txtPPU2.TabIndex = 15;
@@ -153,7 +153,7 @@
             // 
             // txtRPU2
             // 
-            txtRPU2.Location = new Point(396, 185);
+            txtRPU2.Location = new Point(423, 185);
             txtRPU2.Name = "txtRPU2";
             txtRPU2.Size = new Size(77, 31);
             txtRPU2.TabIndex = 14;
@@ -162,7 +162,7 @@
             // 
             // txtInches2
             // 
-            txtInches2.Location = new Point(397, 148);
+            txtInches2.Location = new Point(424, 148);
             txtInches2.Name = "txtInches2";
             txtInches2.Size = new Size(76, 31);
             txtInches2.TabIndex = 13;
@@ -171,7 +171,7 @@
             // 
             // txtRPI2
             // 
-            txtRPI2.Location = new Point(397, 111);
+            txtRPI2.Location = new Point(424, 111);
             txtRPI2.Name = "txtRPI2";
             txtRPI2.Size = new Size(76, 31);
             txtRPI2.TabIndex = 12;
@@ -181,7 +181,7 @@
             // lblPPU2
             // 
             lblPPU2.AutoSize = true;
-            lblPPU2.Location = new Point(249, 225);
+            lblPPU2.Location = new Point(276, 225);
             lblPPU2.Name = "lblPPU2";
             lblPPU2.Size = new Size(134, 25);
             lblPPU2.TabIndex = 11;
@@ -190,7 +190,7 @@
             // lblRPU2
             // 
             lblRPU2.AutoSize = true;
-            lblRPU2.Location = new Point(249, 188);
+            lblRPU2.Location = new Point(276, 188);
             lblRPU2.Name = "lblRPU2";
             lblRPU2.Size = new Size(141, 25);
             lblRPU2.TabIndex = 10;
@@ -199,7 +199,7 @@
             // lblInches2
             // 
             lblInches2.AutoSize = true;
-            lblInches2.Location = new Point(250, 151);
+            lblInches2.Location = new Point(277, 151);
             lblInches2.Name = "lblInches2";
             lblInches2.Size = new Size(81, 25);
             lblInches2.TabIndex = 9;
@@ -208,7 +208,7 @@
             // lblRPI2
             // 
             lblRPI2.AutoSize = true;
-            lblRPI2.Location = new Point(250, 114);
+            lblRPI2.Location = new Point(277, 114);
             lblRPI2.Name = "lblRPI2";
             lblRPI2.Size = new Size(142, 25);
             lblRPI2.TabIndex = 8;
@@ -226,7 +226,7 @@
             // 
             // buttonClear2
             // 
-            buttonClear2.Location = new Point(409, 259);
+            buttonClear2.Location = new Point(436, 259);
             buttonClear2.Name = "buttonClear2";
             buttonClear2.Size = new Size(64, 32);
             buttonClear2.TabIndex = 17;
@@ -258,7 +258,7 @@
             // 
             lblUnits2.AutoSize = true;
             lblUnits2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblUnits2.Location = new Point(249, 281);
+            lblUnits2.Location = new Point(276, 281);
             lblUnits2.Name = "lblUnits2";
             lblUnits2.Size = new Size(91, 25);
             lblUnits2.TabIndex = 21;
@@ -268,7 +268,7 @@
             // 
             lblRings2.AutoSize = true;
             lblRings2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblRings2.Location = new Point(250, 256);
+            lblRings2.Location = new Point(277, 256);
             lblRings2.Name = "lblRings2";
             lblRings2.Size = new Size(94, 25);
             lblRings2.TabIndex = 20;
@@ -413,7 +413,7 @@
             // 
             // txtType2
             // 
-            txtType2.Location = new Point(250, 74);
+            txtType2.Location = new Point(277, 74);
             txtType2.Name = "txtType2";
             txtType2.Size = new Size(223, 31);
             txtType2.TabIndex = 37;
@@ -430,7 +430,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(250, 46);
+            label1.Location = new Point(277, 46);
             label1.Name = "label1";
             label1.Size = new Size(109, 25);
             label1.TabIndex = 39;
@@ -440,9 +440,8 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            AutoSize = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            ClientSize = new Size(624, 639);
+            ClientSize = new Size(628, 544);
             Controls.Add(label1);
             Controls.Add(lblType1);
             Controls.Add(txtType2);
